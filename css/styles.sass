@@ -1,54 +1,70 @@
 
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans')
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans')
 
-$md-bg-05: #ECEFF1
-$md-bg-90: #263238
+$md-te-a7: #00BFA5
 $md-or-a7: #FF6D00
+$md-bg-05: #ECEFF1
+$md-bg-70: #455A64
+$md-bg-90: #263238
 
-$gf-ns: 'Nunito Sans', sans-serif
+$gf-ips: 'IBM Plex Sans', sans-serif
 
 
 body
   background: $md-bg-05
   color: $md-bg-90
-  font-family: $gf-ns
+  font-family: $gf-ips
+  letter-spacing: .1875rem
 
-nav // ? - 4 lines
+header //
   position: absolute
+  z-index: 1
   width: 100%
-  background: $md-or-a7
-  opacity: .5
+  padding-left: .15rem
+  background: fade_out($md-or-a7, .5)
   text-transform: capitalize
 
-  border-left: .5rem solid #0091EA
+nav
+  border-left: .75rem double $md-bg-70
 
 h1
   width: 24.5%
+  padding-left: .25rem
   display: inline-block
-  text-align: center
-
+  text-align: left
   font-style: italic
+  a
+    color: $md-bg-70
+    &:nth-of-type(2)
+      color: $md-te-a7
 
 ul
   width: 75%
   display: inline-block
-  text-align: center
+  text-align: right
+
 li
   width: 25%
+  padding-right: .25rem
   display: inline-block
-  text-align: right
+  border-right: .1rem solid $md-bg-70
+  border-bottom: .01rem solid $md-bg-70
 
 a
   text-decoration: none
-  color: $md-bg-90
-  &:hover
-    color: red
-    border: 1rem solid red
+  color: $md-bg-05
 
 article
+  z-index: 0
   height: 100%
   background: url('/img/banner.jpg') no-repeat
+  filter: grayscale(75%)
+
+p
+  line-height: 475px
+  text-align: center
 
 
 // ! Refactor in accordance with SASS documentation
+// ! Remove unnecessary tags and attributes
 // ! Hovering over navigational link tags creates colorful borders across their respective list tag containers
