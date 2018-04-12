@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans')
+
+$md-bg-05: #ECEFF1
+$md-bg-90: #263238
+$md-or-a7: #FF6D00
+
+$gf-ns: 'Nunito Sans', sans-serif
+
+
+body
+  background: $md-bg-05
+  color: $md-bg-90
+  font-family: $gf-ns
+
+nav // ? - 4 lines
+  position: absolute
+  width: 100%
+  background: $md-or-a7
+  opacity: .5
+  text-transform: capitalize
+
+  border-left: .5rem solid #0091EA
+
+h1
+  width: 24.5%
+  display: inline-block
+  text-align: center
+
+  font-style: italic
+
+ul
+  width: 75%
+  display: inline-block
+  text-align: center
+li
+  width: 25%
+  display: inline-block
+  text-align: right
+
+a
+  text-decoration: none
+  color: $md-bg-90
+  &:hover
+    color: red
+    border: 1rem solid red
+
+article
+  height: 100%
+  background: url('/img/banner.jpg') no-repeat
+
+
+// ! Refactor in accordance with SASS documentation
+// ! Hovering over navigational link tags creates colorful borders across their respective list tag containers
