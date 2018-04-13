@@ -1,13 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans')
+$gf-ips: 'IBM Plex Sans', sans-serif
 
-$md-cy-a7: #00B8D4
+$md-lb-a1: #80D8FF
 $md-or-a7: #FF6D00
+$md-do-a1: #FF9E80
 $md-bg-05: #ECEFF1
 $md-bg-70: #455A64
 $md-bg-90: #263238
-
-$gf-ips: 'IBM Plex Sans', sans-serif
 
 
 body
@@ -16,12 +16,11 @@ body
   font-family: $gf-ips
   letter-spacing: .1875rem
 
-header //
-  position: absolute
-  z-index: 1
-  width: 100%
+header
   padding-left: .15rem
-  background: fade_out($md-or-a7, .5)
+  background: url('/img/banner.jpg'), $md-or-a7
+  background-blend-mode: screen
+  background-size: cover
   text-transform: capitalize
 
 nav
@@ -33,10 +32,8 @@ h1
   display: inline-block
   text-align: left
   font-style: italic
-  a
-    color: $md-bg-70
-    &:nth-of-type(2)
-      color: $md-cy-a7
+  a:nth-of-type(2)
+    color: $md-do-a1
 
 ul
   width: 75%
@@ -52,20 +49,9 @@ li
 
 a
   text-decoration: none
-  color: $md-bg-05
+  color: $md-bg-70
   &:hover
-    color: $md-cy-a7
-
-article
-  z-index: 0
-  height: 100%
-  background: url('/img/banner.jpg') no-repeat
-  background-size: contain
-  filter: grayscale(75%)
-
-p
-  line-height: 475px
-  text-align: center
+    color: $md-lb-a1
 
 
 // ! Refactor in accordance with SASS documentation
