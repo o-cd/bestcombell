@@ -56,32 +56,33 @@ table {
   text-transform: uppercase; }
 
 td {
+  margin-top: .25rem;
   padding: 5vh;
   width: 50%;
   display: inline-block;
   background: #455A64; }
   td:nth-of-type(1) {
-    background: #80D8FF;
+    background: #FF9E80;
     color: #ECEFF1; }
   td:nth-of-type(4) {
-    background: #FF9E80; }
+    background: #80D8FF; }
   td:nth-of-type(6) {
-    background: #80D8FF;
+    background: #FF9E80;
     color: #ECEFF1; }
   td:nth-of-type(7) {
-    background: #FF9E80; }
+    background: #80D8FF; }
   td:nth-of-type(9) {
     width: 100%;
     background: url("/img/bckg-top.jpg"), #FF6D00;
     background-blend-mode: screen;
     background-size: cover; }
   td:nth-of-type(11) {
-    background: #FF9E80;
+    background: #80D8FF;
     color: #ECEFF1; }
   td:nth-of-type(12) {
-    background: #80D8FF; }
+    background: #FF9E80; }
   td:nth-of-type(14) {
-    background: #FF9E80;
+    background: #80D8FF;
     color: #ECEFF1; }
   td:nth-of-type(17) {
-    background: #80D8FF; }
+    background: #FF9E80; }
