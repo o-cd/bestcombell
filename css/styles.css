@@ -51,7 +51,6 @@ a {
     color: #80D8FF; }
 
 table {
-  margin-top: 5vh;
   width: 100%;
   text-align: center;
   text-transform: uppercase; }
@@ -71,13 +70,18 @@ td {
     color: #ECEFF1; }
   td:nth-of-type(7) {
     background: #FF9E80; }
+  td:nth-of-type(9) {
+    width: 100%;
+    background: url("/img/banner.jpg"), #FF6D00;
+    background-blend-mode: screen;
+    background-size: cover; }
+  td:nth-of-type(11) {
+    background: #FF9E80;
+    color: #ECEFF1; }
   td:nth-of-type(12) {
-    background: #FF9E80;
-    color: #ECEFF1; }
-  td:nth-of-type(13) {
     background: #80D8FF; }
-  td:nth-of-type(15) {
+  td:nth-of-type(14) {
     background: #FF9E80;
     color: #ECEFF1; }
-  td:nth-of-type(18) {
+  td:nth-of-type(17) {
     background: #80D8FF; }

@@ -27,21 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.haml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1039">
-              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state relative-caret-position="675">
+              <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1039">
-              <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="484">
+              <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -70,8 +70,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script.coffee" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/css/styles.sass" />
         <option value="$PROJECT_DIR$/index.haml" />
+        <option value="$PROJECT_DIR$/css/styles.sass" />
       </list>
     </option>
   </component>
@@ -180,12 +180,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523499905224</updated>
-      <workItem from="1523499906965" duration="27083000" />
+      <workItem from="1523499906965" duration="27545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27083000" />
+    <option name="totallyTimeSpent" value="27545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -272,18 +272,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.sass">
+    <entry file="file://$PROJECT_DIR$/index.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1039">
-          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="675">
+          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.haml">
+    <entry file="file://$PROJECT_DIR$/css/styles.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1039">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="484">
+          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
           <folding />
         </state>
       </provider>
