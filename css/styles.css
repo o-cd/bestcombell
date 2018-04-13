@@ -4,13 +4,14 @@
   color: #ECEFF1; }
 
 body {
+  padding: .125rem;
   background: #455A64;
   color: #263238;
   font-family: "IBM Plex Sans", sans-serif;
   letter-spacing: .1875rem; }
 
 header {
-  margin-top: .25rem;
+  margin: .125rem .125rem 0 .125rem;
   padding-left: .15rem;
   background: url("../img/bckg-mid.jpg"), #FF6D00;
   background-blend-mode: screen;
@@ -57,9 +58,9 @@ table {
   text-transform: uppercase; }
 
 td {
-  margin-top: .25rem;
+  margin: .25rem .125rem 0 .125rem;
   padding: 5vh;
-  width: 50%;
+  width: calc(50% - .25rem);
   display: inline-block;
   background: #455A64; }
   td:nth-of-type(1) {
@@ -73,7 +74,7 @@ td {
   td:nth-of-type(7) {
     background: #80D8FF; }
   td:nth-of-type(9) {
-    width: 100%;
+    width: calc(100% - .25rem);
     background: url("../img/bckg-top.jpg"), #FF6D00;
     background-blend-mode: screen;
     background-size: cover; }
@@ -87,3 +88,6 @@ td {
     color: #ECEFF1; }
   td:nth-of-type(17) {
     background: #FF9E80; }
+
+footer {
+  margin: .25rem .125rem .125rem .125rem; }

@@ -15,13 +15,14 @@ $md-bg-90: #263238
   color: $md-bg-05
 
 body
+  padding: .125rem
   background: $md-bg-70
   color: $md-bg-90
   font-family: $gf-ips
   letter-spacing: .1875rem
 
 header
-  margin-top: .25rem
+  margin: .125rem .125rem 0 .125rem
   padding-left: .15rem
   background: url('../img/bckg-mid.jpg'), $md-or-a7
   background-blend-mode: screen
@@ -67,9 +68,9 @@ table
   text-transform: uppercase
 
 td
-  margin-top: .25rem
+  margin: .25rem .125rem 0 .125rem
   padding: 5vh
-  width: 50%
+  width: calc(50% - .25rem)
   display: inline-block
   background: $md-bg-70
   &:nth-of-type(1)
@@ -83,7 +84,7 @@ td
   &:nth-of-type(7)
     background: $md-lb-a1
   &:nth-of-type(9)
-    width: 100%
+    width: calc(100% - .25rem)
     background: url('../img/bckg-top.jpg'), $md-or-a7
     background-blend-mode: screen
     background-size: cover
@@ -97,6 +98,10 @@ td
     color: $md-bg-05
   &:nth-of-type(17)
     background: $md-do-a1
+
+
+footer
+  margin: .25rem .125rem .125rem .125rem
 
 
 // ! Add hover effects to tiles e.g. color, blur, or brightness switches
