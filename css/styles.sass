@@ -10,6 +10,10 @@ $md-bg-70: #455A64
 $md-bg-90: #263238
 
 
+::selection
+  background: $md-bg-70
+  color: $md-bg-05
+
 body
   background: $md-bg-70
   color: $md-bg-90
@@ -27,9 +31,10 @@ nav
   border-left: .75rem double $md-bg-70
 
 h1
-  @media screen and (min-width: 1920px) // ? change breakpoint
+  @media (min-width: 1366px)
+    width: 24.4%
+  @media (min-width: 1920px) // ? change breakpoint(s)
     width: 24.5%
-  //width: 24.4% // ? add at certain resolutions
   padding-left: .25rem
   display: inline-block
   font-style: italic
@@ -58,26 +63,36 @@ a
 table
   margin-top: 5vh
   width: 100%
-  //height: 20em
   text-align: center
   text-transform: uppercase
 
 td
   padding: 2.5vh
   width: 50%
-  //height: 100%
   display: inline-block
   background: $md-bg-70
   &:nth-of-type(1)
-    background: $md-do-a1
+    background: $md-lb-a1
     color: $md-bg-05
   &:nth-of-type(4)
-    background: $md-lb-a1
+    background: $md-do-a1
   &:nth-of-type(6)
+    background: $md-lb-a1
+    color: $md-bg-05
+  &:nth-of-type(7)
+    background: $md-do-a1
+  &:nth-of-type(12)
     background: $md-do-a1
     color: $md-bg-05
+  &:nth-of-type(13)
+    background: $md-lb-a1
+  &:nth-of-type(15)
+    background: $md-do-a1
+    color: $md-bg-05
+  &:nth-of-type(18)
+    background: $md-lb-a1
 
 
-
-// ! Refactor in accordance with SASS documentation
+// ! Test all screen sizes and orientations in Safari
 // ! Remove unnecessary tags and attributes
+// ! Optimize by reading SASS documentation

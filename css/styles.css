@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans");
+::selection {
+  background: #455A64;
+  color: #ECEFF1; }
+
 body {
   background: #455A64;
   color: #263238;
@@ -19,7 +23,10 @@ h1 {
   padding-left: .25rem;
   display: inline-block;
   font-style: italic; }
-  @media screen and (min-width: 1920px) {
+  @media (min-width: 1366px) {
+    h1 {
+      width: 24.4%; } }
+  @media (min-width: 1920px) {
     h1 {
       width: 24.5%; } }
   h1 a:nth-of-type(2) {
@@ -55,10 +62,22 @@ td {
   display: inline-block;
   background: #455A64; }
   td:nth-of-type(1) {
-    background: #FF9E80;
+    background: #80D8FF;
     color: #ECEFF1; }
   td:nth-of-type(4) {
-    background: #80D8FF; }
+    background: #FF9E80; }
   td:nth-of-type(6) {
+    background: #80D8FF;
+    color: #ECEFF1; }
+  td:nth-of-type(7) {
+    background: #FF9E80; }
+  td:nth-of-type(12) {
     background: #FF9E80;
     color: #ECEFF1; }
+  td:nth-of-type(13) {
+    background: #80D8FF; }
+  td:nth-of-type(15) {
+    background: #FF9E80;
+    color: #ECEFF1; }
+  td:nth-of-type(18) {
+    background: #80D8FF; }
