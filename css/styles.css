@@ -74,7 +74,7 @@ td {
     background: #80D8FF; }
   td:nth-of-type(9) {
     width: 100%;
-    background: url("/img/bckg-top.jpg"), #FF6D00;
+    background: url("../img/bckg-top.jpg"), #FF6D00;
     background-blend-mode: screen;
     background-size: cover; }
   td:nth-of-type(11) {
