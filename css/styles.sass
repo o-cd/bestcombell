@@ -5,13 +5,13 @@ $gf-ips: 'IBM Plex Sans', sans-serif
 $md-lb-a1: #80D8FF
 $md-or-a7: #FF6D00
 $md-do-a1: #FF9E80
-$md-bg-05: #ECEFF1
+$md-bg-05: #ECEFF1 // ? remove
 $md-bg-70: #455A64
 $md-bg-90: #263238
 
 
 body
-  background: $md-bg-05
+  background: $md-bg-70
   color: $md-bg-90
   font-family: $gf-ips
   letter-spacing: .1875rem
@@ -51,6 +51,23 @@ a
   color: $md-bg-70
   &:hover
     color: $md-lb-a1
+
+
+table
+  margin-top: 5vh
+  width: 100%
+  height: 20em
+  text-align: center
+  text-transform: uppercase
+
+td
+  width: 50%
+  height: 100%
+  display: inline-block
+  background: $md-do-a1
+  &:nth-of-type(2)
+    background: $md-lb-a1
+
 
 
 // ! Refactor in accordance with SASS documentation
