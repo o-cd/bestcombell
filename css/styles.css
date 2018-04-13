@@ -10,6 +10,7 @@ body {
   letter-spacing: .1875rem; }
 
 header {
+  margin-top: .25rem;
   padding-left: .15rem;
   background: url("/img/bckg-mid.jpg"), #FF6D00;
   background-blend-mode: screen;
