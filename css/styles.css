@@ -1,3 +1,4 @@
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans");
 ::selection {
@@ -93,6 +94,22 @@ footer {
   background: url("../img/bckg-bot.jpg"), #FF6D00;
   background-blend-mode: screen;
   background-size: cover; }
+  footer ul {
+    padding: 0;
+    width: calc(100vw - .5rem);
+    text-align: left; }
+  footer li {
+    padding: 0 0 0 5vw;
+    width: calc(50vw - .375rem);
+    border: none; }
+  footer i {
+    width: calc((50vw - .375rem) / 15);
+    text-align: right; }
+  footer a {
+    border-bottom: 0.01rem solid #455A64; }
 
 h2 {
-  text-align: center; }
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #455A64; }

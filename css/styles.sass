@@ -1,5 +1,6 @@
 
 // ? - 'https'
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css')
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons')
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans')
 $gf-ips: 'IBM Plex Sans', sans-serif
@@ -116,9 +117,27 @@ footer
   background: url('../img/bckg-bot.jpg'), $md-or-a7
   background-blend-mode: screen
   background-size: cover
+  ul
+    padding: 0
+    width: calc(100vw - .5rem)
+    text-align: left
+  li
+    padding: 0 0 0 5vw
+    width: calc(50vw - .375rem)
+    border: none
+    //display: inline-block
+  i
+    width: calc((50vw - .375rem) / 15)
+    //width: calc((100vw - .5rem) / 2 - 3.5px)
+    text-align: right
+  a
+    border-bottom: .01rem solid $md-bg-70
 
 h2
+  margin-bottom: 0
   text-align: center
+  text-transform: uppercase
+  color: $md-bg-70
 
 
 //@media (min-width: 1366px)
@@ -129,6 +148,7 @@ h2
 
 // ! Add hover effects to tiles e.g. color, blur, or brightness switches
 //
+// ! Position attributes properly
 // ! Test all screen sizes and orientations in Safari, as well as on your laptop and phone
 // ! Remove unnecessary tags and attributes
 // ! Optimize by reading SASS documentation
