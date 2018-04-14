@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="63edaa69-a689-435f-828f-840b2e661bd1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change beforePath="$PROJECT_DIR$/css/styles.sass" afterPath="$PROJECT_DIR$/css/styles.sass" />
       <change beforePath="$PROJECT_DIR$/index.haml" afterPath="$PROJECT_DIR$/index.haml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -20,28 +18,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../portfolio/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1039">
-              <caret line="214" column="3" lean-forward="true" selection-start-line="214" selection-start-column="3" selection-end-line="214" selection-end-column="3" />
+            <state relative-caret-position="472">
+              <caret line="161" column="43" lean-forward="false" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.haml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="76" column="22" lean-forward="false" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+            <state relative-caret-position="1024">
+              <caret line="102" column="22" lean-forward="false" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="844">
-              <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+            <state relative-caret-position="1024">
+              <caret line="153" column="43" lean-forward="false" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -72,8 +70,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script.coffee" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/index.haml" />
         <option value="$PROJECT_DIR$/css/styles.sass" />
+        <option value="$PROJECT_DIR$/index.haml" />
       </list>
     </option>
   </component>
@@ -182,12 +180,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523499905224</updated>
-      <workItem from="1523499906965" duration="51808000" />
+      <workItem from="1523499906965" duration="52205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51808000" />
+    <option name="totallyTimeSpent" value="52205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="958" height="1200" extended-state="0" />
@@ -268,24 +266,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../portfolio/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1039">
-          <caret line="214" column="3" lean-forward="true" selection-start-line="214" selection-start-column="3" selection-end-line="214" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="76" column="22" lean-forward="false" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        <state relative-caret-position="472">
+          <caret line="161" column="43" lean-forward="false" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="844">
-          <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        <state relative-caret-position="1024">
+          <caret line="153" column="43" lean-forward="false" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1024">
+          <caret line="102" column="22" lean-forward="false" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
           <folding />
         </state>
       </provider>
