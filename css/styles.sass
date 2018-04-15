@@ -3,10 +3,10 @@
 @import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css')
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons')
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans')
+
 $gf-ips: 'IBM Plex Sans', sans-serif
 
 $md-lb-a1: #80D8FF
-$md-or-a7: #FF6D00
 $md-do-a1: #FF9E80
 $md-bg-05: #ECEFF1
 $md-bg-70: #455A64
@@ -20,18 +20,21 @@ $md-bg-90: #263238
 body
   padding: .125rem
 
-  background: $md-bg-70
-  color: $md-bg-90
   font-family: $gf-ips
   letter-spacing: .1875rem
+
+  background: $md-bg-70
+  color: $md-bg-90
+
 
 header
   margin: .125rem
   padding-left: .25rem
 
-  background: url('../img/bckg-mid.jpg'), $md-or-a7
+  background: url('../img/bckg-mid.jpg'), $md-do-a1
   background-blend-mode: screen
   background-size: cover
+
   text-transform: capitalize
 
 nav
@@ -42,7 +45,9 @@ h1
   width: calc((100vw - 1.5rem) / 4 - 3.5px)
 
   display: inline-block
+
   font-style: italic
+
   a:nth-of-type(2)
     color: $md-do-a1
 
@@ -54,10 +59,10 @@ ul
   text-align: right
 
 li
-  width: 10vw
   padding-right: .35rem
   border-right: .1rem solid $md-bg-70
   border-bottom: .01rem solid $md-bg-70
+  width: 10vw
 
   display: inline-block
 
@@ -72,6 +77,7 @@ table
   width: calc(100vw - .5rem)
 
   text-align: center
+
   text-transform: uppercase
 
 td
@@ -80,6 +86,7 @@ td
   width: calc(50vw - .375rem)
 
   display: inline-block
+
   background: $md-bg-70
   &:nth-of-type(1)
     background: $md-do-a1
@@ -94,7 +101,7 @@ td
   &:nth-of-type(9)
     width: calc(100vw - .5rem)
 
-    background: url('../img/bckg-top.jpg'), $md-or-a7
+    background: url('../img/bckg-top.jpg'), $md-lb-a1
     background-blend-mode: screen
     background-size: cover
   &:nth-of-type(11)
@@ -114,28 +121,35 @@ footer
   width: calc(100vw - .5rem)
 
   display: inline-block
-  background: url('../img/bckg-bot.jpg'), $md-or-a7
+
+  background: url('../img/bckg-bot.jpg'), $md-do-a1
   background-blend-mode: screen
   background-size: cover
+
   ul
     padding: 0
     width: calc(100vw - .5rem)
+
     text-align: left
+
   li
     padding: 0 0 0 5vw
     width: calc(50vw - .375rem)
     border: none
-    //display: inline-block
+
   i
     width: calc((50vw - .375rem) / 15)
-    //width: calc((100vw - .5rem) / 2 - 3.5px)
+
     text-align: right
+
   a
     border-bottom: .01rem solid $md-bg-70
 
 h2
   margin-bottom: 0
+
   text-align: center
+
   text-transform: uppercase
   color: $md-bg-70
 
@@ -143,6 +157,7 @@ h2
 @media screen and (max-width: 736px)
   li
     width: 11rem
+
   td
     width: calc(100vw - .5rem)
     &:nth-of-type(2)
@@ -163,15 +178,9 @@ h2
       display: none
 
 
-//@media (min-width: 1366px)
-//  width: 24.4vw
-//@media (min-width: 1920px) // ? change breakpoint(s)
-//  width: 24.5vw
 
-
-// ! Add hover effects to tiles e.g. color, blur, or brightness switches
+// ? Add hover effects to tiles e.g. color, blur, or brightness changes
 //
-// ! Position attributes properly
-// ! Test all screen sizes and orientations in Safari, as well as on your laptop and phone
+// ! Test all screen sizes and orientations in Safari and other browsers, as well as on your laptop and phone
 // ! Remove unnecessary tags and attributes
 // ! Optimize by reading SASS documentation

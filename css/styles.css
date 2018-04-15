@@ -7,15 +7,15 @@
 
 body {
   padding: .125rem;
-  background: #455A64;
-  color: #263238;
   font-family: "IBM Plex Sans", sans-serif;
-  letter-spacing: .1875rem; }
+  letter-spacing: .1875rem;
+  background: #455A64;
+  color: #263238; }
 
 header {
   margin: .125rem;
   padding-left: .25rem;
-  background: url("../img/bckg-mid.jpg"), #FF6D00;
+  background: url("../img/bckg-mid.jpg"), #FF9E80;
   background-blend-mode: screen;
   background-size: cover;
   text-transform: capitalize; }
@@ -38,10 +38,10 @@ ul {
   text-align: right; }
 
 li {
-  width: 10vw;
   padding-right: .35rem;
   border-right: 0.1rem solid #455A64;
   border-bottom: 0.01rem solid #455A64;
+  width: 10vw;
   display: inline-block; }
 
 a {
@@ -73,7 +73,7 @@ td {
     background: #80D8FF; }
   td:nth-of-type(9) {
     width: calc(100vw - .5rem);
-    background: url("../img/bckg-top.jpg"), #FF6D00;
+    background: url("../img/bckg-top.jpg"), #80D8FF;
     background-blend-mode: screen;
     background-size: cover; }
   td:nth-of-type(11) {
@@ -91,7 +91,7 @@ footer {
   margin: .125rem;
   width: calc(100vw - .5rem);
   display: inline-block;
-  background: url("../img/bckg-bot.jpg"), #FF6D00;
+  background: url("../img/bckg-bot.jpg"), #FF9E80;
   background-blend-mode: screen;
   background-size: cover; }
   footer ul {
